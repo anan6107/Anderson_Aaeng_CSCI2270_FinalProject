@@ -28,6 +28,7 @@ GameBoard::~GameBoard()
 
 
 void GameBoard::printShipGrid(){
+    std::cout << "        Ship Grid" << std::endl;
     std::cout << "  |A|B|C|D|E|F|G|H|I|J|" << std::endl;
     for (int y = 0; y < 10; y++){
         if (y < 9)
@@ -40,6 +41,28 @@ void GameBoard::printShipGrid(){
                 std::cout << " ";
             }
             else if (shipBoardArray[y][x] -> emptyNode == true && shipBoardArray[y][x] -> hit == true){
+                std::cout << "0";
+            }
+        }
+        std::cout << "|";
+        std::cout << std::endl;
+    }
+}
+
+void GameBoard::printAttackGrid(){ //This is almost identical to the printShipGrid function
+    std::cout << "       Attack Grid" << std::endl;
+    std::cout << "  |A|B|C|D|E|F|G|H|I|J|" << std::endl;
+    for (int y = 0; y < 10; y++){
+        if (y < 9)
+            std::cout << " " << y + 1;
+        else
+            std::cout << y + 1;
+        for (int x = 0; x < 10; x++){
+            std::cout << "|";
+            if (attackBoardArray[y][x] -> emptyNode == true && attackBoardArray[y][x] -> hit == false){
+                std::cout << " ";
+            }
+            else if (attackBoardArray[y][x] -> emptyNode == true && attackBoardArray[y][x] -> hit == true){
                 std::cout << "0";
             }
         }
