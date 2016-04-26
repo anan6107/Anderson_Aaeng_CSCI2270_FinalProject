@@ -10,7 +10,7 @@ int main()
     GameBoard g;
     g.printAttackGrid();
     g.printShipGrid();
-    string s = "abcdefghijklmnopqrstuvwxyz";
+    /*string s = "abcdefghijklmnopqrstuvwxyz";
     string s2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (int x = 0; x < 26; x++){
         int sum = s[x];
@@ -18,5 +18,7 @@ int main()
         sum = s2[x];
         cout << sum - 64 << endl;
     }
+    */
+    g.startup();
     return 0;
 }
