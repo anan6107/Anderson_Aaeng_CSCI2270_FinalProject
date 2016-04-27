@@ -35,6 +35,7 @@
 	<vector>
 	"GameBoard.h"
 
+<<<<<<< HEAD
 1461773142 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/src/GameBoard.cpp
 	"GameBoard.h"
 	<string>
@@ -52,4 +53,22 @@
 	<string>
 	<vector>
 	"GameBoard.h"
+=======
+1461711413 source:/home/user/Dropbox/Anderson_Aaeng_CSCI2270_FinalProject/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"GameBoard.h"
+
+1461732789 /home/user/Dropbox/Anderson_Aaeng_CSCI2270_FinalProject/include/GameBoard.h
+	<string>
+	<vector>
+
+1461733015 source:/home/user/Dropbox/Anderson_Aaeng_CSCI2270_FinalProject/src/GameBoard.cpp
+	"GameBoard.h"
+	<string>
+	<vector>
+	<iostream>
+	<cstdlib>
+>>>>>>> origin/master
 
