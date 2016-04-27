@@ -5,7 +5,7 @@
 	<vector>
 	"GameBoard.h"
 
-1461707022 .h"
+1461711413 .h"
 
 1461522028 source:/home/user/Dropbox/CS 2270/FinalProject/src/GameBoard.cpp
 	"GameBoard.h"
@@ -13,30 +13,17 @@
 	<vector>
 	<iostream>
 
-1461707405 
+1461732789 
 
 1461522918 /home/user/Dropbox/CS 2270/FinalProject/include/GameBoard.h
 	<string>
 	<vector>
 
-1461538900 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/src/GameBoard.cpp
-	"GameBoard.h"
-	<string>
-	<vector>
-	<iostream>
-
-1461707405 /home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/include/GameBoard.h
-	<string>
-	<vector>
-
-1461707022 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/main.cpp
-	<iostream>
-	<string>
-	<vector>
-	"GameBoard.h"
-
-<<<<<<< HEAD
 1461773142 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/src/GameBoard.cpp
+	"GameBoard.h"
+	<string>
+	<vector>
+	<iostream>
 	"GameBoard.h"
 	<string>
 	<vector>
@@ -46,6 +33,8 @@
 1461729956 /home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/include/GameBoard.h
 	<string>
 	<vector>
+	<string>
+	<vector>
 	<cstdlib>
 
 1461730323 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/main.cpp
@@ -53,7 +42,13 @@
 	<string>
 	<vector>
 	"GameBoard.h"
-=======
+	<iostream>
+	<string>
+	<vector>
+	"GameBoard.h"
+
+1461707022 D
+
 1461711413 source:/home/user/Dropbox/Anderson_Aaeng_CSCI2270_FinalProject/main.cpp
 	<iostream>
 	<string>
@@ -70,5 +65,24 @@
 	<vector>
 	<iostream>
 	<cstdlib>
->>>>>>> origin/master
+
+1461733015 gin/master
+
+1461773608 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"GameBoard.h"
+
+1461784272 /home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/include/GameBoard.h
+	<string>
+	<vector>
+	<cstdlib>
+
+1461784780 source:/home/user/Dropbox/CS 2270/FinalProject/Anderson_Aaeng_CSCI2270_FinalProject/src/GameBoard.cpp
+	"GameBoard.h"
+	<string>
+	<vector>
+	<iostream>
+	<cstdlib>
 
