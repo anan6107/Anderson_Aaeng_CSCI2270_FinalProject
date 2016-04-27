@@ -1,0 +1,1 @@
+We had so many issues with git that we could not solve.  Please use the other branch titled "TrueMaster" in order to see a functional version of the project.  Sorry for any inconvenience.  If we knew how to fix it, we would.
