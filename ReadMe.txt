@@ -12,3 +12,6 @@ Aaron Aaeng and Anna Anderson
 
 Known Issues:
 Occasionally, the first coordinate entered forces the game into an infinite loop.  However, this is solved by restarted the game.  This only happened twice out of the many times that I attempted to run it and I can't identify the problem at this time.
+
+How to Run:
+We tried for quite a long time and asked for help from people who know github far beter than we do, but we simply could not get the other (master) branch to work. We're sorry for any inconvenience this might cause. However, as a result, you will have to run the three files (two for the class and the main.cpp file) from the BattleShip folder in the TrueMaster branch. Open and compile how you usually would using your given terminal. From there, it's simple. Follow the instructions given in the game.
