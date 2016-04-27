@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-
+/*RIP STRUCT
 struct Ship{
     std::string name;
     int xLoc;
@@ -20,11 +20,12 @@ struct Ship{
 		prev = NULL;
 	}
 };
-
+*/
 struct GameNode{
     bool emptyNode;
     bool hit;
-    Ship *shipPiece;
+    //Ship *shipPiece;
+    GameNode *next;
 
 };
 
@@ -36,6 +37,8 @@ class GameBoard
         virtual ~GameBoard();
         void printShipGrid();
         void printAttackGrid();
+        void MakeShipBoard();
+        void MakeAttackBoard();
         void startup();
         void placeShips();
 //        void placeShip(std::string shipName, std::string orientation, std::string column, int row);
@@ -43,8 +46,8 @@ class GameBoard
     private:
         GameNode* shipBoardArray[10][10];
         GameNode* attackBoardArray[10][10];
-        Ship* playerShips[5];
-        Ship* compShips[5];
+        GameNode* playerShips[5];
+        GameNode* compShips[5];
 };
 
 #endif // GAMEBOARD_H
