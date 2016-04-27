@@ -8,8 +8,9 @@ using namespace std;
 int main()
 {
     GameBoard g;
-    g.printAttackGrid();
-    g.printShipGrid();
+    g.startup();
+    g.playGame();
+
     /*string s = "abcdefghijklmnopqrstuvwxyz";
     string s2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (int x = 0; x < 26; x++){
@@ -19,6 +20,6 @@ int main()
         cout << sum - 64 << endl;
     }
     */
-    g.startup();
+    //g.startup();
     return 0;
 }

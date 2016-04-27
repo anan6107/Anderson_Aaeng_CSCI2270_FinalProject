@@ -2,8 +2,9 @@
 #define GAMEBOARD_H
 #include <string>
 #include <vector>
+#include <cstdlib>
 
-
+/*
 struct Ship{
     std::string name;
     int xLoc;
@@ -17,14 +18,15 @@ struct Ship{
 		name = name;
 		length = length;
 		next = NULL;
-		prev = NULL;
 	}
 };
+*/
 
 struct GameNode{
     bool emptyNode;
     bool hit;
-    Ship *shipPiece;
+    std::string shipName;
+    GameNode *next;
 
 };
 
@@ -34,17 +36,29 @@ class GameBoard
     public:
         GameBoard();
         virtual ~GameBoard();
+        void makeShipBoard();
+        void makeAttackBoard();
         void printShipGrid();
         void printAttackGrid();
         void startup();
-        void placeShips();
-//        void placeShip(std::string shipName, std::string orientation, std::string column, int row);
+        int pAttack(int column, int row);
+        int compAttack(int column, int row);
+        void compTurn();
+        void playerTurn();
+        void playGame();
     protected:
     private:
         GameNode* shipBoardArray[10][10];
         GameNode* attackBoardArray[10][10];
-        Ship* playerShips[5];
-        Ship* compShips[5];
+        GameNode* playerShips[5];
+        GameNode* compShips[5];
+        bool compFound = false;
+        bool compVert = false;
+        bool knownOrientation = false;
+        int firstX;
+        int firstY;
+        int compX;
+        int compY;
 };
 
 #endif // GAMEBOARD_H
