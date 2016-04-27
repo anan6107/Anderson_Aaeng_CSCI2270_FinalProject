@@ -4,11 +4,9 @@
 #include <vector>
 #include <cstdlib>
 
-<<<<<<< HEAD
-/*
-=======
+
+
 /*RIP STRUCT
->>>>>>> origin/master
 struct Ship{
     std::string name;
     int xLoc;
@@ -25,18 +23,11 @@ struct Ship{
 	}
 };
 */
-<<<<<<< HEAD
 
 struct GameNode{
     bool emptyNode;
     bool hit;
-    std::string shipName;
-=======
-struct GameNode{
-    bool emptyNode;
-    bool hit;
     //Ship *shipPiece;
->>>>>>> origin/master
     GameNode *next;
 
 };
@@ -65,7 +56,6 @@ class GameBoard
         GameNode* attackBoardArray[10][10];
         GameNode* playerShips[5];
         GameNode* compShips[5];
-<<<<<<< HEAD
         bool compFound = false;
         bool compVert = false;
         bool knownOrientation = false;
@@ -73,8 +63,6 @@ class GameBoard
         int firstY;
         int compX;
         int compY;
-=======
->>>>>>> origin/master
 };
 
 #endif // GAMEBOARD_H

@@ -23,12 +23,7 @@ GameBoard::GameBoard()
         compShips[i] = NULL;
     }
     //ctor
-<<<<<<< HEAD
-
-    /*
-=======
     /* RIP
->>>>>>> origin/master
     playerShips[0] = new Ship("Aircraft Carrier", 5);
     playerShips[1] = new Ship("Submarine", 3);
     playerShips[2] = new Ship("Cruiser", 3);
@@ -80,11 +75,13 @@ void GameBoard::printShipGrid(){
     }
 }
 
-<<<<<<< HEAD
-void GameBoard::printAttackGrid(){
+/*void GameBoard::printAttackGrid(){
     std::cout << "      Attack Grid" << std::endl;
     std::cout << " |0|1|2|3|4|5|6|7|8|9|" << std::endl;
-=======
+}
+*/
+/*
+//Merge conflicts
 void GameBoard::MakeShipBoard()
 {
     int sadness;
@@ -371,11 +368,11 @@ void GameBoard::MakeAttackBoard()
 				attackBoardArray[5][7]->next=attackBoardArray[6][7];
 	}
 }
-
+*/
 void GameBoard::printAttackGrid(){ //This is almost identical to the printShipGrid function
     std::cout << "       Attack Grid" << std::endl;
     std::cout << "  |A|B|C|D|E|F|G|H|I|J|" << std::endl;
->>>>>>> origin/master
+
     for (int y = 0; y < 10; y++){
             std::cout << y;
         for (int x = 0; x < 10; x++){
